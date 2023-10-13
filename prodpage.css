@@ -1,0 +1,53 @@
+/**{
+	box-sizing: border-box;
+}
+*/
+
+.header-space{
+	height : 70px;
+	width : auto;
+/*	box-shadow: 0px 0px 2px red;
+*//*	margin-bottom: 20px;*/
+}
+.prod{
+	box-shadow: 0px 0px 2px blue;
+}
+.prod-image{
+	width: 500px;
+	box-shadow: 0px 0px 2px blue;
+	margin-left: 150px;
+	display: inline;
+
+}
+.prod-title{
+	height: 20px;
+	width: 100px;
+	display: inline;
+	box-shadow: 0px 0px 2px green;
+	
+}
+.prod-price{
+	height: 20px;
+	width: 100px;
+	display: inline;
+	box-shadow: 0px 0px 2px orangered;
+}
+
+
+/*________________________________________*/
+.add-to-cart .btn-qty {
+  width: 52px;
+  height: 46px;
+}
+.add-to-cart .btn { border-radius: 0; }
+.monospaced { font-family: 'Ubuntu Mono', monospaced ; }
+
+#page { width:100%; height:100%; background:#8D928E; overflow:hidden; } 
+#page:after { content:''; z-index:1; width:100%; height:100%; background:rgba(0,0,0,0.7); position:absolute; }
+
+#page, #magnify { background-image: "64.jpg" center center no-repeat; position:absolute; top:0px; left:0px; background-attachment:fixed; background-size:900px; transition: background-size 300ms, width 300ms, height 300ms; } 
+
+
+#magnify { z-index:2; width:300px; height:300px; border:none; border-radius:200px; box-shadow:inset 0px 0px 30px 20px rgba(0,0,0,0.1), 0px 0px 10px 0px rgba(0,0,0,.7); margin:-150px; border:5px solid #F5F5F5; background-size:1100px; top:50%; left:50%; } 
+
+#magnify:active { background-size:1500px; } 
